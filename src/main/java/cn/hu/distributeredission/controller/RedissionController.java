@@ -26,7 +26,7 @@ public class RedissionController {
         RedissonClient redisson = Redisson.create(config);
         RLock rLock = redisson.getLock("order");
         rLock.lock(30, TimeUnit.SECONDS);
-        log.info("我活得了锁。。。。");
+        log.info("我获得了锁。。。。");
         try {
             Thread.sleep(10000);
         } catch (InterruptedException e) {
