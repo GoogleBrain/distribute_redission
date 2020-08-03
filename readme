@@ -1,1 +1,1 @@
-访问：http://localhost:8081/redissionlock    使用的是javaAPI 的方式实现的分布式锁。
+访问：http://localhost:8081/redissionlock    使用的是java  API 的方式实现的分布式锁。
